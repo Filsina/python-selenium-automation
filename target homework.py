@@ -30,6 +30,4 @@ sleep(5)
 
 #check SignIn button is shown
 
-actual_text=driver.find_element(By.ID, "login").text
-print(actual_text)
-sleep(5)
+
