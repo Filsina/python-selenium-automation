@@ -1,6 +1,10 @@
-# Created by alex7 at 5/22/2024
-Feature: # Enter feature name here
-  # Enter feature description here
+Feature: Target circle page test
 
-  Scenario: # Enter scenario name here
-    # Enter steps here
+  Scenario: User can see 10 benefit cells
+    Given Open Target main page
+    When Search for Target circle icon
+    Then Verify header in shown
+
+  Scenario: Verify header has correct amount links
+    Given Open Target main page
+    Then Verify header has 10 links
