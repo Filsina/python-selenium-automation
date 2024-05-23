@@ -10,4 +10,3 @@ def verify_cart_products(context, number):
     cart_total = context.driver.find_element(*CART_TOTAL).text
     assert number in cart_total, f"Expected {number} product received {cart_total}"
 
-    #assert amount in cart_summary, f"Expected {amount} items but got {cart_summary}"
